@@ -1,0 +1,103 @@
+/* 
+    Document   : Site
+    Created on : 07.Haz.2013, 11:10:08
+    Author     : ibrahim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+    display: block;
+}
+#ana {
+    margin: 0 auto;
+    width:960px;
+}
+#ust {
+    border-bottom:1px solid black;
+    background-color:white;
+    height:50px;
+}
+#ust > #logo {
+    border:1px solid black;
+    margin:10px 10px 10px 10px;
+    float:left;
+    background-color:white;
+    font-family: System;
+    font-size: 14pt;
+    color:black;
+}
+#ust > #ustLinkler {
+
+    margin-left:20px;
+    margin-top:10px;
+    float:left;
+    background-color:white;
+}
+a#link {
+    float:left;
+    margin-left:5px;
+    border:1px solid;
+    text-decoration: none;
+    color:blue;
+    font-size:18px;
+}
+a#link:hover{
+    color:black;
+}
+a#link:visited{
+    color:blue;
+}
+/* #ustIcerik {
+     border:1px solid black;
+     background-color:gray;
+} */
+#mainContent {
+    float:left;
+    height: auto;
+}
+#solAnaIcerik {
+    float:left;
+    background-color:white;
+    min-height:400px;
+    width:250px;
+}
+a#projeLink{
+    display: block;
+    margin-left:5px;
+    font-size:11pt;
+    color:blue;
+    text-decoration: none;
+}
+a#etiketLink{
+    font-size:8pt;
+    color:blue;
+    text-decoration: none;
+}
+#sagAnaIcerik {
+    float:left;
+    background-color:white;
+    min-height:400px;
+    width:705px;
+}
+#title{
+    font-size:12pt;
+    color:blue;
+    text-decoration: none;
+    margin: 5px auto 0px 10px;   
+}
+#content{
+    font-size:11pt;
+    text-decoration: none;
+    margin: 5px auto 0px 10px;   
+}
+#alt {
+    clear:both;
+    border-top:1px solid black;
+    margin-top: 20px;
+}
+
+

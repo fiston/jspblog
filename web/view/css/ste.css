@@ -1,0 +1,54 @@
+/* 
+    Document   : Site
+    Created on : 07.Haz.2013, 11:10:08
+    Author     : ibrahim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+   
+}
+#ana {
+    width:auto;
+    height:150px;
+    font-family:'Adobe Arabic';
+    font-size:20px;
+}
+#ust {
+    background-color:blue;
+}
+    #ust > #logo {
+        float:left;
+        background-color:red;
+    }
+    #ust > #ustLinker {
+        float:left;
+        background-color:blanchedalmond;
+    }
+#ustIcerik {
+     background-color:yellow;
+}
+#anaIcerik {
+     background-color:gray;
+}
+    #anaIcerik > #solAnaIcerik {
+        float:left;
+        background-color:red;
+    }
+    #anaIcerik > #sagAnaIcerik {
+        float:left;
+        background-color:blueviolet;
+    }
+#altIcerik {
+    clear:both;
+     background-color:forestgreen;
+}
+#alt {
+     background-color:grey;
+}
+
+

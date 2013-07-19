@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta http-equiv="X-UA-Compatible" content="EmulateIE8" />
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PrimeFaces - ShowCase</title>
+            </f:facet>
+
+            <link type="text/css" rel="stylesheet" href="#{request.contextPath}/css/default.css" />
+            <link type="text/css" rel="stylesheet" href="#{request.contextPath}/css/syntaxhighlighter/syntaxhighlighter.css" />
+
+            <style type="text/css">
+                .ui-layout-north {
+                    z-index:20 !important;
+                    overflow:visible !important;;
+                }
+
+                .ui-layout-north .ui-layout-unit-content {
+                    overflow:visible !important;
+
+                }
+                .sefa2{
+                    width: 500px;
+                    display:block;
+                    float:left;
+                    border-color:red;
+                    border-width: 4px;
+                    font-size:16px;
+                    background-color: white;
+                    text-decoration: none;
+                    font-family: tahoma;
+                }
+                .sefa2 :hover{
+
+                    background-color:red;
+                }
+            </style>
+        </h:head>
+
+
+        <h:body style="font-size:10pt;">
+
+            <p:layout style="min-width:400px;min-height:900px;" id="layout">  
+                <p:layoutUnit position="north" resizable="true" size="60" minSize="40" maxSize="200">  
+                    <h:form>
+                        <p:megaMenu style="height:30px; font-size:16px;">  
+                            <p:menuitem value="Sefa ŞAHİN 's Weblog" url="http://www.s3f4.com" /> 
+                            <p:submenu label="TV" icon="ui-icon-check">  
+                                <p:column>  
+                                    <p:submenu label="TV.1">  
+                                        <p:menuitem value="TV.1.1" url="#" />  
+                                        <p:menuitem value="TV.1.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="TV.2">  
+                                        <p:menuitem value="TV.2.1" url="#" />  
+                                        <p:menuitem value="TV.2.2" url="#" />  
+                                        <p:menuitem value="TV.2.3" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="TV.3">  
+                                        <p:menuitem value="TV.3.1" url="#" />  
+                                        <p:menuitem value="TV.3.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+
+                                <p:column>  
+                                    <p:submenu label="TV.4">  
+                                        <p:menuitem value="TV.4.1" url="#" />  
+                                        <p:menuitem value="TV.4.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="TV.5">  
+                                        <p:menuitem value="TV.5.1" url="#" />  
+                                        <p:menuitem value="TV.5.2" url="#" />  
+                                        <p:menuitem value="TV.5.3" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+
+                                <p:column>  
+                                    <strong>Sopranos</strong>  
+                                    <p:graphicImage value="/images/sopranos/sopranos1.jpg" width="200"/>  
+                                </p:column>  
+                            </p:submenu>  
+
+                            <p:submenu label="Sports" icon="ui-icon-document">  
+
+                                <p:column>  
+                                    <p:submenu label="Sports.1">  
+                                        <p:menuitem value="Sports.1.1" url="#" />  
+                                        <p:menuitem value="Sports.1.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Sports.2">  
+                                        <p:menuitem value="Sports.2.1" url="#" />  
+                                        <p:menuitem value="Sports.2.2" url="#" />  
+                                        <p:menuitem value="Sports.2.3" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Sports.3">  
+                                        <p:menuitem value="Sports.3.1" url="#" />  
+                                        <p:menuitem value="Sports.3.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+
+                                <p:column>  
+                                    <p:submenu label="Sports.4">  
+                                        <p:menuitem value="Sports.4.1" url="#" />  
+                                        <p:menuitem value="Sports.4.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Sports.5">  
+                                        <p:menuitem value="Sports.5.1" url="#" />  
+                                        <p:menuitem value="Sports.5.2" url="#" />  
+                                        <p:menuitem value="Sports.5.3" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+                                <p:column>  
+                                    <p:submenu label="Sports.7">  
+                                        <p:menuitem value="Sports.7.1" url="#" />  
+                                        <p:menuitem value="Sports.7.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Sports.8">  
+                                        <p:menuitem value="Sports.8.1" url="#" />  
+                                        <p:menuitem value="Sports.8.2" url="#" />  
+                                        <p:menuitem value="Sports.8.3" url="#" />  
+                                        <p:menuitem value="Sports.8.4" url="#" />  
+                                        <p:menuitem value="Sports.8.5" url="#" />  
+                                        <p:menuitem value="Sports.8.6" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+                            </p:submenu>  
+
+                            <p:submenu label="Entertainment" icon="ui-icon-pencil">  
+                                <p:column>  
+                                    <p:submenu label="Entertainment.1">  
+                                        <p:menuitem value="Entertainment.1.1" url="#" />  
+                                        <p:menuitem value="Entertainment.1.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Entertainment.2">  
+                                        <p:menuitem value="Entertainment.2.1" url="#" />  
+                                        <p:menuitem value="Entertainment.2.2" url="#" />  
+                                        <p:menuitem value="Entertainment.2.3" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Entertainment.3">  
+                                        <p:menuitem value="Entertainment.3.1" url="#" />  
+                                        <p:menuitem value="Entertainment.3.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+
+                                <p:column>  
+                                    <p:submenu label="Entertainment.4" icon="ui-icon-help">  
+                                        <p:menuitem value="Entertainment.4.1" url="#" />  
+                                        <p:menuitem value="Entertainment.4.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Entertainment.5">  
+                                        <p:menuitem value="Entertainment.5.1" url="#" />  
+                                        <p:menuitem value="Entertainment.5.2" url="#" />  
+                                        <p:menuitem value="Entertainment.5.3" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Entertainment.6">  
+                                        <p:menuitem value="Entertainment.6.1" url="#" />  
+                                        <p:menuitem value="Entertainment.6.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+                            </p:submenu>  
+
+
+                            <p:submenu label="Tech" icon="ui-icon-contact">  
+                                <p:column>  
+                                    <p:submenu label="Tech.1">  
+                                        <p:menuitem value="Tech.1.1" url="#" />  
+                                        <p:menuitem value="Tech.1.2" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Tech.2">  
+                                        <p:menuitem value="Tech.2.1" url="#" />  
+                                        <p:menuitem value="Tech.2.2" url="#" />  
+                                        <p:menuitem value="Tech.2.3" url="#" />  
+                                    </p:submenu>  
+                                    <p:submenu label="Tech.3">  
+                                        <p:menuitem value="Tech.3.1" url="#" />  
+                                        <p:menuitem value="Tech.3.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+
+                                <p:column>  
+                                    <p:submenu label="Tech.4">  
+                                        <p:menuitem value="Tech.4.1" url="#" />  
+                                        <p:menuitem value="Tech.4.2" url="#" />  
+                                    </p:submenu>  
+                                </p:column>  
+                            </p:submenu>  
+
+                            <p:menuitem value="Quit" url="http://www.primefaces.org" icon="ui-icon-close" />  
+                        </p:megaMenu> 
+                    </h:form>
+                </p:layoutUnit>  
+                <center>
+                    <p:layoutUnit position="west" resizable="true" header="Naber" size="100" minSize="274" maxSize="300" style="font-size:10pt;font-family: tahoma;">  
+                        <p:growl id="msg" showDetail="false" />  
+                        <center>
+                            <p:tagCloud model="#{tagCloudBean.model}">  
+                                <p:ajax  event="select" update="msg" listener="#{tagCloudBean.onSelect}" />  
+                            </p:tagCloud>  
+                            <br />
+                            <p:panel header="Who am I?" footer="Java And Algorithms">  
+                                <h:outputText value="I am Sefa ŞAHİN and study Firat Universty Computer Engineering Department." />  
+                            </p:panel>  
+                        </center>
+                    </p:layoutUnit>  
+                </center>
+                <p:layoutUnit position="center">  
+                    <p:carousel id="tabsCarousel" numVisible="1" itemStyle="height:400px;width:980px;" effect="easeInStrong">
+                        <p:tab title="Godfather Part I">
+                            <h:panelGrid columns="2" cellpadding="10">
+                                <p:graphicImage value="/images/godfather/godfather1.jpg" />
+                                <h:outputText
+                                    value="The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. 
+                                    His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. T
+                                    hrough Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, kind and benevolent to those who give respect, 
+                                    but given to ruthless violence whenever anything stands against the good of the family." />
+                            </h:panelGrid>
+                        </p:tab>
+                        <p:tab title="Godfather Part II">
+                            <h:panelGrid columns="2" cellpadding="10">
+                                <p:graphicImage value="/images/godfather/godfather2.jpg" />
+                                <h:outputText value="Francis Ford Coppola's legendary continuation and sequel to his landmark 1972 film, The_Godfather, parallels the young Vito Corleone's rise with his son Michael's spiritual fall, deepening The_Godfather's depiction of the dark side of the American dream. 
+                                              In the early 1900s, the child Vito flees his Sicilian village for America after the local Mafia kills his family. Vito struggles to make a living, legally or illegally, for his wife and growing brood in Little Italy, 
+                                              killing the local Black Hand Fanucci after he demands his customary cut of the tyro's business. With Fanucci gone, Vito's communal stature grows."/>
+                            </h:panelGrid>
+                        </p:tab>
+                        <p:tab title="Godfather Part III">
+                            <h:panelGrid columns="2" cellpadding="10">
+                                <p:graphicImage value="/images/godfather/godfather3.jpg" />
+                                <h:outputText value="After a break of more than 15 years, director Francis Ford Coppola and writer Mario Puzo returned to the well for this third and final story of the fictional Corleone crime family. 
+                                              Two decades have passed, and crime kingpin Michael Corleone, now divorced from his wife Kay has nearly succeeded in keeping his promise that his family would one day be completely legitimate." />
+                            </h:panelGrid>
+                        </p:tab>
+                    </p:carousel>
+
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" resizable="true" size="100" minSize="40" maxSize="200">  
+                    <center><h:outputText value="&copy; 2013 &Xi;&Sigma;&Gamma;&Delta; Powered By JSF and PrimeFaces" /></center>
+                </p:layoutUnit> 
+            </p:layout>  
+
+        </h:body>
+
+    </f:view>
+</html>
+
+
+
